@@ -1,0 +1,68 @@
+body
+{
+    background: #212121;
+    color: beige;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #6387d6;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+main section
+{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #6387d6;
+    float: left;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+.bgRed
+{
+    /*background: rgba(255, 0, 0, 0.38);*/
+    color : rgba(255, 0, 0, 0.81);
+    
+}
+.bgGreen
+{
+    /*background: rgba(0, 128, 0, 0.38);*/
+    color : rgba(0, 128, 0, 0.81);
+}
+.bgRed, .bgGreen
+{
+    font-size: 6em;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Calibri, Lucida Handwriting, Freestyle Script, Comic Sans, Lucida, Century Gothic, Consolas, Arial;
+}
+
+aside
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+aside#left
+{
+    left: 30%;
+    background: green;    
+    box-shadow: inset 2px 2px 10px 0 rgba(16, 13, 13, 0.8),
+                      2px 2px 5px 0 rgba(61, 157, 61, 0.85);
+}
+aside#right
+{
+    right: 30%;
+    background: red;
+    box-shadow: inset 2px 2px 10px 0 rgba(16, 13, 13, 0.8),
+                      2px 2px 5px 0 rgba(186, 31, 31, 0.85);
+}
